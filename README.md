@@ -3,7 +3,7 @@
 **Cambridge Engineering — IDP Team 110**
 
 An autonomous forklift robot developed to collect boxes from loading
-bays, read their QR-coded destinations, navigate a junction-based track,
+bays, read their QR-encoded destinations, navigate a junction-based track,
 and unload them at specified rack locations.
 
 <p align="center">
@@ -68,7 +68,7 @@ follow_junction.py
    +-- line_follow.py        Line tracking and correction
    +-- navigation.py         QR-based route generation
    +-- motor.py              Drive-motor interface
-   +-- actuator.py           Fork lift/lower control
+   +-- actuator.py           Fork lifting/lowering control
    |
    +-- libs/
        +-- VL53L0X/          Distance-sensor driver
@@ -167,8 +167,8 @@ Relevant source: [`sw/line_follow.py`](sw/line_follow.py) ·
 
 The `LD` command controls the pickup sequence. The fork is first lowered
 and set to its pickup height, and the robot reduces its drive speed for
-greater accuracy. It line-follows towards the box while monitoring the
-VL53L0X distance sensor.
+greater accuracy. It follows the line towards the box while monitoring
+the VL53L0X distance sensor.
 
 Once within the QR-reading region, the robot stops and repeatedly polls
 the Tiny Code Reader until a destination is obtained. That destination
@@ -201,8 +201,8 @@ bay_station += 1
 ```
 
 The robot then completes its final approach using the distance sensor.
-At approximately 35 mm from the box, it moves the forks underneath,
-raises them by 20 mm and reverses out of the loading bay.
+At approximately 35 mm from the box, it moves the forks underneath the
+box, raises them by 20 mm and reverses out of the loading bay.
 
 Relevant source: [`sw/follow_junction.py`](sw/follow_junction.py)
 
