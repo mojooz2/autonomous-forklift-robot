@@ -1,0 +1,2 @@
+media/full_operation.MOV filter=lfs diff=lfs merge=lfs -text
+media/*.MOV filter=lfs diff=lfs merge=lfs -text
