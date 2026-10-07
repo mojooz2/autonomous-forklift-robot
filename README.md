@@ -84,9 +84,27 @@ loading/unloading commands.
 
 ### 1. Line Following and Junction Navigation
 
-**[▶ Straight-line following and
-rotation](media/straightline_and_rotate.MOV)**  
-**[▶ Ignoring junctions](media/ignoring_junctions.MOV)**
+<p align="center">
+<img src="media/straightline_and_rotate_2x.gif"
+     alt="Straight-line following and rotation at 2x speed"
+     width="640">
+</p>
+<p align="center">
+<em>Straight-line following and rotation at 2× speed.</em>
+</p>
+
+**[Watch the original full-length video](media/straightline_and_rotate.MOV)**
+
+<p align="center">
+<img src="media/ignoring_junctions_2x.gif"
+     alt="Ignoring junctions at 2x speed"
+     width="640">
+</p>
+<p align="center">
+<em>Ignoring junctions at 2× speed.</em>
+</p>
+
+**[Watch the original full-length video](media/ignoring_junctions.MOV)**
 
 Two line sensors are used to keep the robot on the white line. A sensor
 reads `1` on white and `0` on black. If one sensor leaves the line,
@@ -128,7 +146,16 @@ Relevant source: [`sw/line_follow.py`](sw/line_follow.py) ·
 
 ### 2. Box Pickup and QR Reading
 
-**[▶ Autonomous pickup](media/pickup.MOV)**
+<p align="center">
+<img src="media/pickup_2x.gif"
+     alt="Autonomous pickup at 2x speed"
+     width="640">
+</p>
+<p align="center">
+<em>Autonomous pickup at 2× speed.</em>
+</p>
+
+**[Watch the original full-length video](media/pickup.MOV)**
 
 The `LD` command controls the pickup sequence. The fork is first lowered
 and set to its pickup height, and the robot reduces its drive speed for
@@ -208,7 +235,16 @@ Relevant source: [`sw/navigation.py`](sw/navigation.py)
 
 ### 4. Box Drop-off
 
-**[▶ Autonomous rack drop-off](media/dropoff.mov)**
+<p align="center">
+<img src="media/dropoff_2x.gif"
+     alt="Autonomous rack drop-off at 2x speed"
+     width="640">
+</p>
+<p align="center">
+<em>Autonomous rack drop-off at 2× speed.</em>
+</p>
+
+**[Watch the original full-length video](media/dropoff.mov)**
 
 The unloading sequence depends on whether the QR code specifies a lower
 or upper rack. `navigation.py` inserts either `LUL` or `UUL` at the
