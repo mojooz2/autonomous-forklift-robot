@@ -20,7 +20,10 @@ and unload them at specified rack locations.
 </p>
 
 <p align="center">
-<strong><a href="media/full_operation.MOV">Watch the original full-length video</a></strong>
+<strong><a href="media/full_operation.MOV">Download the original full-length video</a></strong>
+</p>
+<p align="center">
+<strong><a href="https://drive.google.com/file/d/1EI981949RtqkInCCGNpRNHg1PRVTlBVv/view?usp=sharing">Google drive link to watch the video</a></strong>
 </p>
 
 The full run is driven by a continuously updated list of movement
